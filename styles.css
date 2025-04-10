@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    background-color: black;
+    color: blueviolet;
+    padding-top: 15px;
+}
+nav{
+    position: static;
+    top: 0cm;
+    width: 85%;
+    background-color: black;
+    color: blueviolet;
+    padding: 15px,25px;
+    z-index: 1000;
+}
+nav a:hover{
+    background-color: black;
+}
+header{
+    text-align: center;
+    padding: 50xp,75px;
+}
+header h1{
+    font-size: medium;
+    color: black;
+}
+header p{
+    font-size: medium;
+    color: beige;
+    margin-top: 15px;
+}
+header img{
+    margin-top: 25px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+main{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20cap;
+}
+section{
+    margin-bottom: 30px;
+}
+h2{
+    font-size: 2rem;
+    color:black;
+    border-bottom: 2px snow;
+    padding-bottom: 10px;
+    margin-top: 0%;
+}
+ul,
+ol{
+    padding-left: 25px;
+    margin-top: 15px;
+}
+ul li,
+ol li{
+    font-size: 1.5rem;
+    color: navy;
+    margin-bottom: 10px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+footer{
+    background-color: black;
+    color: grey;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+}
+@media (max-width:770px) {nav a {
+    padding: 10px 12px;
+    margin: 0px;
+}}
+header h1{
+    font-size: 2.5rem;
+}
+header p{
+    font-size: 1rem;
+}
+main{
+    padding: 10px;
+}
+section{
+    margin-bottom: 30px;
+}
+h2{
+    font-size: 1.5rem;
+}
+ul li,
+ol li{
+    font-size: 1rem;
+}
+
+
+
+
+
+
